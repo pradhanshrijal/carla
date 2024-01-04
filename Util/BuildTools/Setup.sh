@@ -51,7 +51,7 @@ export CC="$UE4_ROOT/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v17_
 export CXX="$UE4_ROOT/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v17_clang-10.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++"
 export PATH="$UE4_ROOT/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v17_clang-10.0.1-centos7/x86_64-unknown-linux-gnu/bin:$PATH"
 
-CXX_TAG=c10
+CXX_TAG=c12
 
 # Convert comma-separated string to array of unique elements.
 IFS="," read -r -a PY_VERSION_LIST <<< "${PY_VERSION_LIST}"

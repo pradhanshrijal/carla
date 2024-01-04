@@ -25,7 +25,7 @@ static auto GetAvailableMaps(const carla::client::Client &self) {
   boost::python::list result;
   std::vector<std::string> maps;
   {
-    carla::PythonUtil::ReleaseGIL unlock;
+    //carla::PythonUtil::ReleaseGIL unlock;
     maps = self.GetAvailableMaps();
   }
   for (const auto &str : maps) {
